@@ -6,7 +6,7 @@ let btn_limpar = document.querySelector('#btn-limpar-pesquisa');
 let tabela_usuarios = document.querySelector('#tabela-usuarios');
 
 document.addEventListener('DOMContentLoaded', () => {
-    fetch('/utils/dados.json')
+    fetch('/Dashboard-Project-Casal/utils/dados.json')
         .then(res => res.json())
         .then(data => {
             atualizar_tabela(data.users);
@@ -48,7 +48,7 @@ function atualizar_tabela(lista_usuarios) {
 }
 
 function pesquisar_na_tabela() {
-    fetch('/utils/dados.json')
+    fetch('/Dashboard-Project-Casal/utils/dados.json')
         .then(res => res.json())
         .then(data => {
             // .normalize("NFD").replace(/[\u0300-\u036f]/g, '')
