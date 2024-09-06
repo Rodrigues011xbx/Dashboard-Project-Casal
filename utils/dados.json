@@ -1,0 +1,34 @@
+{
+    "sessions": [
+        {"date": "2024-08-21", "count": 120},
+        {"date": "2024-08-22", "count": 150},
+        {"date": "2024-08-23", "count": 170},
+        {"date": "2024-08-24", "count": 130},
+        {"date": "2024-08-25", "count": 160},
+        {"date": "2024-08-26", "count": 180},
+        {"date": "2024-08-27", "count": 200}
+    ],
+
+    "users": [
+        {"name": "Laura", "email": "laura@casal.al.gov.br", "registered": "2024-01-15"},
+        {"name": "Janderson", "email": "janderson@casal.al.gov.br", "registered": "2024-02-20"},
+        {"name": "Jovinete", "email": "jovinete@casal.al.gov.br", "registered": "2024-03-25"},
+        {"name": "Gabriel", "email": "gabriel@casal.al.gov.br", "registered": "2024-04-18"},
+        {"name": "Guilherme", "email": "guilherme@casal.al.gov.br", "registered": "2024-05-18"},
+        {"name": "Adriel", "email": "adriel@casal.al.gov.br", "registered": "2024-05-18"},
+        {"name": "Mayara", "email": "mayara@casal.al.gov.br", "registered": "2024-12-15"},
+        {"name": "Adolfo", "email": "adolfo@casal.al.gov.br", "registered": "2024-07-16"},
+        {"name": "Vinícius", "email": "vinicius@casal.al.gov.br", "registered": "2024-07-03"},
+        {"name": "Yngrid", "email": "yngrid@casal.al.gov.br", "registered": "2023-11-06"},
+        {"name": "Ruan", "email": "ruan@casal.al.gov.br", "registered": "2023-03-30"},
+        {"name": "Maria", "email": "maria@casal.al.gov.br", "registered": "2023-10-13"},
+        {"name": "José", "email": "jose@casal.al.gov.br", "registered": "2023-07-16"},
+        {"name": "Brenda", "email": "brenda@casal.al.gov.br", "registered": "2023-09-28"}
+    ],
+
+    "performance": {
+        "averageResponseTime": "200ms",
+        "errorRate": "0.5%",
+        "activeUsers": 350
+    }
+}

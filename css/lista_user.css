@@ -1,0 +1,5 @@
+#form-pesquisa-usuarios {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr auto auto;
+}
