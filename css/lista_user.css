@@ -1,5 +1,37 @@
 #form-pesquisa-usuarios {
     display: grid;
     gap: 1em;
-    grid-template-columns: 1fr 1fr auto auto;
+    grid-template-columns: 1fr 1fr auto;
+}
+
+#pesquisa-buttons {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 640px) {
+    #form-pesquisa-usuarios {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 344px) {
+    #form-pesquisa-usuarios {
+        display: grid;
+        gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    table {
+        font-size: 11px;
+    }
 }
